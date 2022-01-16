@@ -1,0 +1,11 @@
+.banner {
+  height: 80vh;
+  margin-top: 25px;
+  background-image: url("../images/bg-jquery.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+nav .brand-logo {
+  padding-left: 10px;
+}

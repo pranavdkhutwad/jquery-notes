@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery Notes</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/materialize.min.css">
+    <link rel="stylesheet" href="../assets/css/default.min.css" />
+    <link rel="stylesheet" href="examples.css">
+</head>
+<body>
+    <header>
+    <!-- NavBar -->
+    <nav>
+        <div class="nav-wrapper">
+          <a href="#!" class="brand-logo">jQuery Notes</a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../notes/notes.html">Notes</a></li>
+            <li class="active"><a href="examples.html">Examples</a></li>
+        </ul>
+        </div>
+      </nav>
+    
+      <ul class="sidenav" id="mobile-demo">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../notes/notes.html">Notes</a></li>
+        <li class="active"><a href="examples.html">Examples</a></li>
+      </ul>
+    <!-- NavBar -->
+    </header>
+
+    <main>
+        <div class="container">
+            <ul class="collapsible">
+                <!-- <li>
+                  <div class="collapsible-header"><i class="material-icons">filter_1</i>jQuery Introduction</div>
+                  <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                </li> -->
+                
+                <li>
+                    <div class="collapsible-header"><i class="material-icons">filter_2</i>Effects</div>
+                    <div class="collapsible-body">
+                        <!-- 
+                        #########################################################################
+                                Display Effects
+                        #########################################################################
+                        -->
+                        <!-- Hide Method -->
+                        <div>
+                            <div class="row">
+                                <div class="col s12 m12">
+                                    <div class="card  red lighten-3">
+                                        <div class="card-content white-text">
+                                            <span class="card-title card-title-custom">
+                                                <div>Hide Method</div>
+                                                <div>
+                                                    <i class="material-icons view-hide-example-icon">remove_red_eye</i>
+                                                    <i class="material-icons view-hide-source-code-icon">code</i>
+                                                </div>
+                                            </span>
+                                            <div class="hide-demo-container">
+                                                <p class="hide-paragraph box"></p>
+                                                <button type="button" class="hide-btn waves-effect waves-light btn">Hide</button>
+                                            </div>
+                                            <pre class="hide-source-code-container prettyprint"></pre>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Hide Method -->
+
+                        <!-- Show Method -->
+                        <div>
+                            <div class="row">
+                                <div class="col s12 m12">
+                                    <div class="card  red lighten-3">
+                                        <div class="card-content white-text">
+                                            <span class="card-title card-title-custom">
+                                                <div>Show Method</div>
+                                                <div>
+                                                    <i class="material-icons view-show-example-icon">remove_red_eye</i>
+                                                    <i class="material-icons view-show-source-code-icon">code</i>
+                                                </div>
+                                            </span>
+                                            <div class="show-demo-container">
+                                                <p class="show-paragraph box" style="display: none;"></p>
+                                                <button type="button" class="show-btn waves-effect waves-light btn">Show Text</button>
+                                            </div>
+                                            <pre class="show-source-code-container prettyprint"></pre>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Show Method -->
+
+                        <!-- Toggle Method -->
+                        <div>
+                            <div class="row">
+                                <div class="col s12 m12">
+                                    <div class="card  red lighten-3">
+                                        <div class="card-content white-text">
+                                            <span class="card-title card-title-custom">
+                                                <div>Toggle Method</div>
+                                                <div>
+                                                    <i class="material-icons view-toggle-example-icon">remove_red_eye</i>
+                                                    <i class="material-icons view-toggle-source-code-icon">code</i>
+                                                </div>
+                                            </span>
+                                            <div class="toggle-demo-container">
+                                                <p class="toggle-paragraph box"></p>
+                                                <button type="button" class="toggle-btn waves-effect waves-light btn">Toggle Text</button>
+                                            </div>
+                                            <pre class="toggle-source-code-container prettyprint"></pre>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Toggle Method -->
+
+                    <!-- 
+                    #########################################################################
+                                Fading Effects
+                    #########################################################################
+                    -->
+
+                    <!-- FadeIn Method -->
+                    <div>
+                        <div class="row">
+                            <div class="col s12 m12">
+                                <div class="card  red lighten-3">
+                                    <div class="card-content white-text">
+                                        <span class="card-title card-title-custom">
+                                            <div>Fade In Method</div>
+                                            <div>
+                                                <i class="material-icons view-fadein-example-icon">remove_red_eye</i>
+                                                <i class="material-icons view-fadein-source-code-icon">code</i>
+                                            </div>
+                                        </span>
+                                        <div class="fadein-demo-container">
+                                            <p class="fadein-paragraph box" style="display: none"></p>
+                                            <button type="button" class="fadein-btn waves-effect waves-light btn">Fade In Text</button>
+                                        </div>
+                                        <pre class="fadein-source-code-container prettyprint"></pre>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Fade In Method -->
+
+                    <!-- Fade Out Method -->
+                    <div>
+                        <div class="row">
+                            <div class="col s12 m12">
+                                <div class="card  red lighten-3">
+                                    <div class="card-content white-text">
+                                        <span class="card-title card-title-custom">
+                                            <div>Fade Out Method</div>
+                                            <div>
+                                                <i class="material-icons view-fadeout-example-icon">remove_red_eye</i>
+                                                <i class="material-icons view-fadeout-source-code-icon">code</i>
+                                            </div>
+                                        </span>
+                                        <div class="fadeout-demo-container">
+                                            <p class="fadeout-paragraph box"></p>
+                                            <button type="button" class="fadeout-btn waves-effect waves-light btn">Fade Out Text</button>
+                                        </div>
+                                        <pre class="fadeout-source-code-container prettyprint"></pre>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Fade Out Method -->
+
+                    <!-- Fade Toggle Method -->
+                    <div>
+                        <div class="row">
+                            <div class="col s12 m12">
+                                <div class="card  red lighten-3">
+                                    <div class="card-content white-text">
+                                        <span class="card-title card-title-custom">
+                                            <div>Fade Toggle Method</div>
+                                            <div>
+                                                <i class="material-icons view-fade-toggle-example-icon">remove_red_eye</i>
+                                                <i class="material-icons view-fade-toggle-source-code-icon">code</i>
+                                            </div>
+                                        </span>
+                                        <div class="fade-toggle-demo-container">
+                                            <p class="fade-toggle-paragraph box"></p>
+                                            <button type="button" class="fade-toggle-btn waves-effect waves-light btn">Fade Toggle</button>
+                                        </div>
+                                        <pre class="fade-toggle-source-code-container prettyprint"></pre>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Toggle Method -->
+
+                    <!-- 
+                    #########################################################################
+                                Sliding Effects
+                    #########################################################################
+                    -->
+                        <!-- Slide Down Method -->
+                        <div>
+                            <div class="row">
+                                <div class="col s12 m12">
+                                    <div class="card  red lighten-3">
+                                        <div class="card-content white-text">
+                                            <span class="card-title card-title-custom">
+                                                <div>Slide Down Method</div>
+                                                <div>
+                                                    <i class="material-icons view-toggle-example-icon">remove_red_eye</i>
+                                                    <i class="material-icons view-toggle-source-code-icon">code</i>
+                                                </div>
+                                            </span>
+                                            <div class="toggle-demo-container">
+                                                <p class="toggle-paragraph box"></p>
+                                                <button type="button" class="toggle-btn waves-effect waves-light btn">Toggle Text</button>
+                                            </div>
+                                            <pre class="toggle-source-code-container prettyprint"></pre>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Toggle Method -->
+
+                        <!-- Toggle Method -->
+                        <div>
+                            <div class="row">
+                                <div class="col s12 m12">
+                                    <div class="card  red lighten-3">
+                                        <div class="card-content white-text">
+                                            <span class="card-title card-title-custom">
+                                                <div>Toggle Method</div>
+                                                <div>
+                                                    <i class="material-icons view-toggle-example-icon">remove_red_eye</i>
+                                                    <i class="material-icons view-toggle-source-code-icon">code</i>
+                                                </div>
+                                            </span>
+                                            <div class="toggle-demo-container">
+                                                <p class="toggle-paragraph box"></p>
+                                                <button type="button" class="toggle-btn waves-effect waves-light btn">Toggle Text</button>
+                                            </div>
+                                            <pre class="toggle-source-code-container prettyprint"></pre>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Toggle Method -->
+
+                        <!-- Toggle Method -->
+                        <div>
+                            <div class="row">
+                                <div class="col s12 m12">
+                                    <div class="card  red lighten-3">
+                                        <div class="card-content white-text">
+                                            <span class="card-title card-title-custom">
+                                                <div>Toggle Method</div>
+                                                <div>
+                                                    <i class="material-icons view-toggle-example-icon">remove_red_eye</i>
+                                                    <i class="material-icons view-toggle-source-code-icon">code</i>
+                                                </div>
+                                            </span>
+                                            <div class="toggle-demo-container">
+                                                <p class="toggle-paragraph box"></p>
+                                                <button type="button" class="toggle-btn waves-effect waves-light btn">Toggle Text</button>
+                                            </div>
+                                            <pre class="toggle-source-code-container prettyprint"></pre>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Toggle Method -->
+
+                    <!-- 
+                    #########################################################################
+                                Animate
+                    #########################################################################
+                    -->
+
+                    <!-- 
+                    #########################################################################
+                                Delay
+                    #########################################################################
+                    -->
+                    </div>
+                  </li>
+                
+                  <li>
+                    <div class="collapsible-header"><i class="material-icons">filter_3</i>HTML Methods</div>
+                    <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                  </li>
+                
+                  <li>
+                    <div class="collapsible-header"><i class="material-icons">filter_4</i>CSS Methods</div>
+                    <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                  </li>
+                
+                  <li>
+                    <div class="collapsible-header"><i class="material-icons">filter_5</i>Dimension Methods</div>
+                    <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                  </li>
+
+                  <li>
+                    <div class="collapsible-header"><i class="material-icons">filter_6</i>Form</div>
+                    <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                  </li>
+
+                  <li>
+                    <div class="collapsible-header"><i class="material-icons">filter_7</i>Events</div>
+                    <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                  </li>
+
+                  <li>
+                    <div class="collapsible-header"><i class="material-icons">filter_8</i>Traversing Methods</div>
+                    <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                  </li>
+
+                  <li>
+                    <div class="collapsible-header"><i class="material-icons">filter_9</i>AJAX</div>
+                    <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                  </li>
+
+                  <li>
+                    <div class="collapsible-header"><i class="material-icons">touch_app</i>Selectors</div>
+                    <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                  </li>
+              </ul>
+        </div>
+    </main>
+
+    <script src="../assets/js/jquery.min.js"></script>
+    <script src="../assets/js/materialize.min.js"></script>
+    <script src="../assets/js/highlight.min.js"></script>
+    <script src="../assets/js/run_prettify.js"></script>
+    <script src="../assets/js/main.js"></script>
+    <script src="examples.js"></script>
+</body>
+</html>
